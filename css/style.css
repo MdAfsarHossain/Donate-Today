@@ -327,3 +327,48 @@ hr {
   height: 100%;
   object-fit: cover;
 }
+
+/* Updates */
+.updates {
+  width: 100%;
+  padding: 80px 0px;
+}
+
+.updates-container {
+  width: 850px;
+  margin: 0 auto;
+}
+
+.input-container {
+  background-color: wheat;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 50px;
+}
+
+input[type="email"] {
+  width: 250px;
+  padding: 20px;
+  border: none;
+  border-radius: 5px 0px 0px 5px;
+  background-color: lightgray;
+}
+
+input[type="email"]::placeholder {
+  color: gray;
+  font-weight: 700;
+  text-align: start;
+}
+
+.input-container button {
+  border-radius: 0px 5px 5px 0px;
+}
+
+input[type="email"]:focus {
+  outline: none;
+  border: 2px solid tomato;
+  border-radius: 10px 0px 0px 10px;
+  box-shadow: 0 0 10px rgb(221, 215, 215);
+}
