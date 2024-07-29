@@ -167,3 +167,57 @@ hr {
 .donate-container button {
   margin-bottom: 10px;
 }
+
+/* Donate Plan */
+.donate-plan {
+  width: 100%;
+}
+
+.donate-plan-container {
+  width: 1070px;
+  margin: 0 auto;
+  padding: 60px 0px;
+}
+
+.donate-plan-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  margin-top: 70px;
+  margin-bottom: 60px;
+}
+
+.donate-plan-card {
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+.donate-plan-card img {
+  width: 50px;
+  height: 50px;
+}
+
+.donate-plan-card-1 {
+  background-color: rgb(203, 225, 233);
+}
+
+.donate-plan-card-2 {
+  background-color: rgb(247, 226, 229);
+}
+
+.donate-plan-card-3 {
+  background-color: rgb(250, 228, 219);
+}
+
+.donate-plan-card-title {
+  margin-top: 15px;
+}
+
+.donate-plan-card-description {
+  color: gray;
+}
