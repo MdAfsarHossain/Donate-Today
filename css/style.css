@@ -221,3 +221,54 @@ hr {
 .donate-plan-card-description {
   color: gray;
 }
+
+/* Their lives */
+.lives {
+  width: 100%;
+  height: 100vh;
+  padding: 80px 0px;
+}
+
+.lives-container {
+  width: 1070px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.lives-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 15px;
+  width: 50%;
+}
+
+.lives-title {
+  font-size: 46px;
+  margin-bottom: 20px;
+  font-family: miami;
+  font-weight: 300;
+}
+
+.lives-description {
+  width: 70%;
+  margin: 10px 0px;
+}
+
+.lives-content button {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.lives-img {
+  width: 50%;
+}
+
+.lives-img img {
+  width: 100%;
+}
