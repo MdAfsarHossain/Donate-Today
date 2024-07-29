@@ -1,0 +1,116 @@
+/* Responsive */
+/* Mobide Device */
+@media screen and (max-width: 576px) {
+  /* Banner */
+  .banner-title {
+    font-size: 35px;
+    margin-bottom: 15px;
+  }
+
+  .banner-description {
+    width: 90%;
+    font-size: 12px;
+  }
+
+  .banner-btn,
+  .primary-btn {
+    padding: 10px;
+  }
+
+  /* Donate */
+  .donate-container {
+    width: 90%;
+  }
+
+  .money-container {
+    flex-direction: column;
+    gap: 15px;
+    width: 90%;
+  }
+
+  .money-amount {
+    padding: 35px 30px;
+  }
+
+  hr {
+    width: 80%;
+  }
+
+  .section-description {
+    width: 90%;
+  }
+
+  /* Donate Plan */
+  .donate-plan-container {
+    width: 95%;
+  }
+
+  .donate-plan-cards {
+    width: 95%;
+    margin: 0 auto;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  /* Their Lives */
+  .lives {
+    height: 100%;
+  }
+  .lives-container {
+    width: 95%;
+    flex-direction: column;
+  }
+
+  .lives-content {
+    width: 95%;
+  }
+
+  .lives-title {
+    font-size: 40px;
+  }
+
+  .lives-description {
+    width: 90%;
+  }
+
+  .lives-img {
+    width: 100%;
+  }
+
+  /* Their Needs */
+  .need {
+    height: 100%;
+  }
+
+  .need-container {
+    width: 95%;
+    flex-direction: column;
+  }
+
+  .need-content {
+    width: 95%;
+    margin-top: 25px;
+    margin-left: 0px;
+  }
+
+  .need-title {
+    font-size: 40px;
+  }
+
+  .need-description {
+    width: 90%;
+  }
+
+  .need-img {
+    width: 100%;
+  }
+
+  /* Updates */
+  .updates-container {
+    width: 95%;
+  }
+
+  input[type="email"] {
+    padding: 15px;
+  }
+}
